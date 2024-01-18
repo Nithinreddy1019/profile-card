@@ -1,0 +1,29 @@
+.socials-container{
+    height: 100px;
+    border-top: 2px solid white;
+
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials-followers, .socials-likes, .socials-photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-shadow: 0.5px 0.5px 2px #393E46;
+
+}
+
+.socials-followers p, .socials-likes p, .socials-photos p{
+    opacity: 0.5;
+}
+
+.socials-followers h3, .socials-likes h3, .socials-photos h3{
+    opacity: 0.8;
+}

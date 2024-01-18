@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile-card {
+  border-radius: 25px;
+
+  width: 365px;
+  height: 400px;
+  margin: 100px auto;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.top-comp-container{
+  box-shadow: 5px 5px 5px #393E46;
+
+}
+
+.socials-container{
+  box-shadow: 5px 5px 5px #393E46;
+}

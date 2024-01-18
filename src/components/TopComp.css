@@ -1,0 +1,45 @@
+.top-comp-container {
+    height: 300px;
+
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    background: linear-gradient(to bottom, #00ADB5 60%, #EEEEEE 40%);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-comp-imgchild img{
+    height: 100px;
+    width: 100px;
+
+    border: 1.5px solid #EEEEEE;
+    border-radius: 50px;
+
+    box-shadow: 5px 5px 5px #393E46;
+    
+}
+
+.top-comp-imgchild{
+    padding-top: 80px;
+}
+
+.top-comp-namechild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 5px;
+}
+
+.nameage{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
